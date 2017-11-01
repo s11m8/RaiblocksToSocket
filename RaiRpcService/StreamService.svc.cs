@@ -15,7 +15,7 @@ namespace StreamService
     //    InstanceContextMode = InstanceContextMode.PerCall)]
     public class RpcStream : IRpcStreamImpl
     {
-
+        //Add comment
         private static WebSocket _ws = new WebSocket("ws://localhost:49009/Blocks?name=PosetServer_8e9qqqx6637728111");
         private static HashSet<String> _hs = new HashSet<String>();
         private static object _lock = new object();
